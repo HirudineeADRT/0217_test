@@ -1,0 +1,88 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "f56e50da-e5fc-4d64-a863-89769fd38765": {
+        "id": "f56e50da-e5fc-4d64-a863-89769fd38765",
+        "parent": null,
+        "name": "0217_test.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "0217_test.js",
+        "cursor": {
+          "lineNumber": 4,
+          "column": 3
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "0217test"
+        },
+        "triggers": [],
+        "lastUpdated": 1613538246459,
+        "testCases": {
+          "f5c6ceb7-e266-4775-b2ed-6122ac57fcda": {
+            "id": "f5c6ceb7-e266-4775-b2ed-6122ac57fcda",
+            "name": "Test event",
+            "functionId": "f56e50da-e5fc-4d64-a863-89769fd38765",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          },
+          "7659a5d2-dec7-47dd-bb02-2376b37b8ca0": {
+            "id": "7659a5d2-dec7-47dd-bb02-2376b37b8ca0",
+            "name": "Copy of Test event",
+            "functionId": "f56e50da-e5fc-4d64-a863-89769fd38765",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "f56e50da-e5fc-4d64-a863-89769fd38765"
+    ],
+    "currentFileId": "f56e50da-e5fc-4d64-a863-89769fd38765",
+    "resources": {},
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.6.1",
+    "projectName": "0217_test",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1613538987663
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "0217_test",
+      "url": "https://github.com/HirudineeADRT/0217_test"
+    }
+  }
+}
